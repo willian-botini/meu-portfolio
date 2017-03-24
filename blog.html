@@ -6,17 +6,22 @@
 		<link rel="icon" href= "favicon.png">
 		<link rel="stylesheet" href="reset.css">
 		<link rel="stylesheet" href="site.css">
+		<!-- carrega a fonte Crimson Text nas versões normal, itálico e negrito -->
+		<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Crimson+Text:400,400italic,600">
+		<!-- carrega a fonte Open Sans Condensed na versão negrito, -->
+		<!-- que é a única necessária para os cabeçalhos            -->
+		<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans+Condensed:700">
 	</head>
 
 	<body>
 		<main>
-			<h1>Blog</h1>
+			<h1 class="titulo-principal">Blog</h1>
 			<div>
 			<article>
 				<h2>O essencial de design responsivo</h2>
 				<time datetime="2014-06-03">3 de junho de 2014</time>
 				<p>Design responsivo tem ganho cada vez mais atenção como técnica de desenvolvimento de páginas web para dispositivos móveis. Mas como começar?</p>
-				<a href="#">Leia mais</a>
+				<a class="mais" href="#">Leia mais</a>
 				<footer>Tags: <a href="#">design responsivo</a>, <a href="#">mobile</a>, <a href="#">css</a></footer>
 			</article>
 			
@@ -24,7 +29,7 @@
 				<h2>Por que fazer páginas acessíveis?</h2>
 				<time datetime="2016-10-14">14 de outubro de 2016</time>
 				<p>Tem se falado cada vez sobre acessibilidade na web. Há diversas técnicas e diretivas a serem seguidas, inclusive da própria W3C. Mas vale a pena investir nisso?</p>
-				<a href="#">Leia mais</a>
+				<a class="mais" href="#">Leia mais</a>
 				<footer>Tags: <a href="#">acessibilidade</a>, <a href="#">boas práticas</a></footer>
 			</article>
 			
@@ -32,15 +37,15 @@
 				<h2>JavaScript não obstrusivo</h2>
 				<time datetime="2017-03-20">20 de março de 2017</time>
 				<P>JavaScript é uma linguagem essencial hoje em dia para criar páginas ricas, interativas e dinâmicas. Porém, há alguns cuidados que devem ser tomados ao colocarmos código JavaScript em nossas páginas.</p>
-				<a href="#">Leia mais</a>
+				<a class="mais" href="#">Leia mais</a>
 				<footer>Tags: <a href="#">javascript</a>, <a href="#">boas práticas</a></footer>
 			</article>
 			</div>
 		</main>
 
-		<img src="man.jpg" alt: "Foto de João da Silva">
+		<img src="man.jpg" alt= "Foto de João da Silva">
 
-		<aside>
+		<aside class="navegacao-site">
 			<div>
 			<h1>João da Silva</h1>
 			<nav>
@@ -53,9 +58,14 @@
 				</ul>
 			</nav>	
 			</div>
+			<ul class="icones-sociais">
+				<li><a class="github" href="https://github.com/willian-botini/">Github</a></li>
+				<li><a class="facebook" href="https://www.facebook.com/willian.botini">Facebook</a></li>
+				<li><a class="linkedin" href="https://www.linkedin.com/in/willian-botini-334a02129/">Linkedin</a></li>		
+			</ul>
 		</aside>
 
-		<footer>
+		<footer class="rodape-pagina">
 			&copy; João da Silva 2017
 		</footer>
 	</body>
