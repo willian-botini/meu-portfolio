@@ -8,31 +8,27 @@ body{
 h2{
 	font-size: 30px;
 	font-family: "Open Sans Condensed", "Arial",sans-serif;
-
+	clear: both;
 }
 
 p{
 	text-align: justify;
 	margin: 20px 0;
+}
 
+main{
+	float: left;
+	width: 80%;
 }
 
 main a{
 	color: #851944;
 	font-family: "Open Sans Condensed", sans-serif;
 	text-decoration: none;
-
 }
-img{
-	border: 10px solid #000000;
-
-}
-
-main div{
-	width: 720px;
-	margin: auto;
-	padding: 30px 0;
-
+.minha-foto{
+	width: 20%;
+	box-sizing: border-box;
 }
 
 strong {
@@ -47,8 +43,12 @@ article{
 	padding-bottom: 30px;
 	border-bottom: 1px solid #ccc;
 	margin-bottom: 30px;
+}
 
-
+.container{
+	width: 720px;
+	margin: auto;
+	padding: 30px 0;
 }
 
 .rodape-pagina{
@@ -56,11 +56,7 @@ article{
 	color: #D9E5E3;
 	margin: 0px;
 	padding: 20px;
-}
-
-.icones-sociais li{
-	display: inline-block;	
-
+	clear: both;
 }
 
 .navegacao-site{
@@ -69,16 +65,46 @@ article{
 	margin: 0px;
 	padding: 20px;
 	text-align: center;
+	box-sizing: border-box;
+}
 
+.navegacao-site a{
+	color: inherit; 
+	font-family: "Open Sans Condensed", sans-serif;
+	text-transform: lowercase;
+}
+
+.navegacao-site h1{
+	font-size: 30px;
+	margin-bottom: 25px;
+	text-transform: uppercase;
+}
+
+.navegacao-site, img{
+	float: right;
+	border-left: 10px solid #000; 
+	border-bottom: 10px solid #000;
+}
+
+.navegacao-site{
+	clear: right;
+	width: 15%;
 }
 
 .citacoes{
 	background-color: #D9E5E3;
-	padding: 20px;
+	padding: 16px;
 	border: 10px solid #C2CCCA;
 	width: 250px;
-	margin: 20px 40px;
+	margin: 16px 0;
 	box-sizing: border-box;
+
+}
+
+.citacoes cite{
+	font-style: italic;
+	float: right;
+	
 
 }
 
@@ -90,25 +116,8 @@ article{
 	font-family: "Open Sans Condensed", sans-serif;
 	padding: 25px;
 	margin: 0px;
-	border-bottom: 10px solid #000000;
+	border-bottom: 10px solid black;
 	text-transform: uppercase;
-}
-
-.navegacao-site a{
-	color: inherit; 
-	font-family: "Open Sans Condensed", sans-serif;
-
-}
-
-.navegacao-site h1{
-	font-size: 30px;
-	margin-bottom: 25px;
-
-}
-
-.navegacao-site img{
-	border: transparent;
-
 }
 
 .mais {
@@ -120,30 +129,43 @@ article{
 	background-color: #E6E7E8;
 }
 
+.icones-sociais a{
+	margin-top: 10px;
+	display: inline-block;	
+	width: 36px;
+	height: 36px;
+	text-indent: -9999px;
+	background-size: 36px;
+}
+
+.icones-sociais li{
+	display: inline-block;	
+	margin-right: 10px;
+}
+
+.icones-sociais li:last-child{
+	margin-right: 0px;
+}
+
 .github{
 	background-image: url("github.png");
-	display: inline-block;
-	width: 40px;
-	height: 40px;
-	text-indent: -9999px;
-
 }
 
 .facebook{
 	background-image: url("facebook.png");
-	display: inline-block;
-	width: 40px;
-	height: 40px;
-	text-indent: -9999px;
-	background-size: 40px;
-
 }
 
 .linkedin{
 	background-image: url("linkedin.png");
-	display: inline-block;
-	width: 40px;
-	height: 40px;
-	text-indent: -9999px;
-
 }
+
+.fiat{
+	float: right;
+	margin-left: 20px;
+}
+
+.petrobras{
+	float: left;
+	margin-right: 20px;
+}
+
