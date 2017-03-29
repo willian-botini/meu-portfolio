@@ -1,171 +1,20 @@
-body{
-	font-family: "Crimson Text", "Times New Roman", serif;
-	background-color: #F2FFFC;
-	font-size: 20px;
-	line-height: 1.5;
-}
 
-h2{
-	font-size: 30px;
-	font-family: "Open Sans Condensed", "Arial",sans-serif;
-	clear: both;
-}
 
-p{
-	text-align: justify;
-	margin: 20px 0;
-}
 
-main{
-	float: left;
-	width: 80%;
-}
 
-main a{
-	color: #851944;
-	font-family: "Open Sans Condensed", sans-serif;
-	text-decoration: none;
-}
-.minha-foto{
-	width: 20%;
-	box-sizing: border-box;
-}
 
-strong {
-    font-weight: bold;
-}
 
-em {
-    font-style: italic;
-}
 
-article{
-	padding-bottom: 30px;
-	border-bottom: 1px solid #ccc;
-	margin-bottom: 30px;
-}
 
-.container{
-	width: 720px;
-	margin: auto;
-	padding: 30px 0;
-}
 
-.rodape-pagina{
-	background-color: #000000;
-	color: #D9E5E3;
-	margin: 0px;
-	padding: 20px;
-	clear: both;
-}
 
-.navegacao-site{
-	background-color: #3C1D3D;
-	color: #F2FFFC;
-	margin: 0px;
-	padding: 20px;
-	text-align: center;
-	box-sizing: border-box;
-}
 
-.navegacao-site a{
-	color: inherit; 
-	font-family: "Open Sans Condensed", sans-serif;
-	text-transform: lowercase;
-}
 
-.navegacao-site h1{
-	font-size: 30px;
-	margin-bottom: 25px;
-	text-transform: uppercase;
-}
 
-.navegacao-site, img{
-	float: right;
-	border-left: 10px solid #000; 
-	border-bottom: 10px solid #000;
-}
 
-.navegacao-site{
-	clear: right;
-	width: 15%;
-}
 
-.citacoes{
-	background-color: #D9E5E3;
-	padding: 16px;
-	border: 10px solid #C2CCCA;
-	width: 250px;
-	margin: 16px 0;
-	box-sizing: border-box;
 
-}
 
-.citacoes cite{
-	font-style: italic;
-	float: right;
-	
 
-}
 
-.titulo-principal {
-	text-align: center;
-	color: #F2FFFC;
-	background-color: #851944;
-	font-size: 60px;
-	font-family: "Open Sans Condensed", sans-serif;
-	padding: 25px;
-	margin: 0px;
-	border-bottom: 10px solid black;
-	text-transform: uppercase;
-}
-
-.mais {
-	font-size: 24px;
-	padding: 08px;
-	margin: 16px;
-	display: block;
-	text-align: center;
-	background-color: #E6E7E8;
-}
-
-.icones-sociais a{
-	margin-top: 10px;
-	display: inline-block;	
-	width: 36px;
-	height: 36px;
-	text-indent: -9999px;
-	background-size: 36px;
-}
-
-.icones-sociais li{
-	display: inline-block;	
-	margin-right: 10px;
-}
-
-.icones-sociais li:last-child{
-	margin-right: 0px;
-}
-
-.github{
-	background-image: url("github.png");
-}
-
-.facebook{
-	background-image: url("facebook.png");
-}
-
-.linkedin{
-	background-image: url("linkedin.png");
-}
-
-.fiat{
-	float: right;
-	margin-left: 20px;
-}
-
-.petrobras{
-	float: left;
-	margin-right: 20px;
-}
 

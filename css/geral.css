@@ -1,0 +1,135 @@
+body{
+	font-family: "Crimson Text", "Times New Roman", serif;
+	background-color: #F2FFFC;
+	font-size: 20px;
+	line-height: 1.5;
+}
+
+h2{
+	font-size: 30px;
+	font-family: "Open Sans Condensed", "Arial",sans-serif;
+	clear: both;
+}
+
+p{
+	text-align: justify;
+	margin: 20px 0;
+}
+
+main{
+	float: left;
+	width: 84%;
+}
+
+main a{
+	color: #851944;
+	font-family: "Open Sans Condensed", sans-serif;
+	text-decoration: none;
+}
+
+strong {
+    font-weight: bold;
+}
+
+em {
+    font-style: italic;
+}
+
+.titulo-principal {
+	text-align: center;
+	color: #F2FFFC;
+	background-color: #851944;
+	font-size: 60px;
+	font-family: "Open Sans Condensed", sans-serif;
+	padding: 25px;
+	margin: 0px;
+	border-bottom: 10px solid black;
+	text-transform: uppercase;
+}
+
+.container{
+	width: 720px;
+	margin: 0 auto;
+	padding: 40px 0;
+	padding-bottom: 80px;
+}
+
+.rodape-pagina{
+	background-color: #000000;
+	color: #D9E5E3;
+	margin: 0px;
+	padding: 20px;
+	clear: both;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+}
+
+.navegacao-site{
+	background-color: #3C1D3D;
+	color: #F2FFFC;
+	margin: 0px;
+	padding: 20px;
+	text-align: center;
+	box-sizing: border-box;
+	clear: right;
+	width: 15%;
+	position: relative;
+	top: 310px;
+}
+
+.navegacao-site a{
+	color: inherit; 
+	font-family: "Open Sans Condensed", sans-serif;
+	text-transform: lowercase;
+}
+
+.navegacao-site h1{
+	font-size: 30px;
+	margin-bottom: 25px;
+	text-transform: uppercase;
+}
+
+.navegacao-site, img{
+	float: right;
+	border-left: 10px solid #000; 
+	border-bottom: 10px solid #000;
+}
+
+.icones-sociais a{
+	margin-top: 10px;
+	display: inline-block;	
+	width: 36px;
+	height: 36px;
+	text-indent: -9999px;
+	background-size: 36px;
+}
+
+.icones-sociais li{
+	display: inline-block;	
+	margin-right: 10px;
+}
+
+.icones-sociais li:last-child{
+	margin-right: 0px;
+}
+
+.github{
+	background-image: url("imagens/github.png");
+}
+
+.facebook{
+	background-image: url("imagens/facebook.png");
+}
+
+.linkedin{
+	background-image: url("imagens/linkedin.png");
+}
+
+.minha-foto{
+	box-sizing: border-box;
+	position: absolute;
+	top: 0;
+	right: 0;
+		 
+}
