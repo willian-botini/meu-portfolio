@@ -90,7 +90,7 @@ em {
 	text-transform: uppercase;
 }
 
-.navegacao-site, img{
+.navegacao-site, .minha-foto{
 	float: right;
 	border-left: 10px solid #000; 
 	border-bottom: 10px solid #000;
@@ -115,15 +115,15 @@ em {
 }
 
 .github{
-	background-image: url("imagens/github.png");
+	background-image: url("../imagens/github.png");
 }
 
 .facebook{
-	background-image: url("imagens/facebook.png");
+	background-image: url("../imagens/facebook.png");
 }
 
 .linkedin{
-	background-image: url("imagens/linkedin.png");
+	background-image: url("../imagens/linkedin.png");
 }
 
 .minha-foto{
