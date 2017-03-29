@@ -18,7 +18,7 @@ p{
 
 main{
 	float: left;
-	width: 84%;
+	width: 86%;
 }
 
 main a{
@@ -68,12 +68,12 @@ em {
 .navegacao-site{
 	background-color: #3C1D3D;
 	color: #F2FFFC;
-	margin: 0px;
+	margin: 0;
 	padding: 20px;
 	text-align: center;
 	box-sizing: border-box;
 	clear: right;
-	width: 15%;
+	width: 14%;
 	position: relative;
 	top: 310px;
 }
@@ -81,7 +81,7 @@ em {
 .navegacao-site a{
 	color: inherit; 
 	font-family: "Open Sans Condensed", sans-serif;
-	text-transform: lowercase;
+	text-transform: lowercase; 
 }
 
 .navegacao-site h1{
@@ -94,6 +94,10 @@ em {
 	float: right;
 	border-left: 10px solid #000; 
 	border-bottom: 10px solid #000;
+}
+
+.navegacao-site li{
+	margin-bottom: 08px;
 }
 
 .icones-sociais a{
